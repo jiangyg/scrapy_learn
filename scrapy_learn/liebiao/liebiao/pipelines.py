@@ -8,7 +8,7 @@
 
 class LiebiaoPipeline(object):
     def open_spider(self, spider):
-        self.file = open('/Users/admin/PycharmProjects/scrapy_learn/liebiao/liebiao/spiders/phone_liebiao_20190925.csv', 'w')
+        self.file = open('phone_liebiao_20190925.csv', 'w')
 
     def process_item(self, item, spider):
         if len(item) > 0 :

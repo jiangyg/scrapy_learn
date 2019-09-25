@@ -26,7 +26,9 @@ class LiebiaoSpSpider(scrapy.Spider):
         # 20190925_1
         # for i in range(5000004, 5200000, 1):
         # 20190925_2
-        for i in range(4800000,5000000,1):
+        # for i in range(4800000,5000000,1):
+        # 20190925_3
+        for i in range(4600000,4800000,1):
             i = str(i+1)
             url = 'http://'+ i +'.' +base_url
             print(url)
