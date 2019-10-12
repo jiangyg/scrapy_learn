@@ -25,7 +25,9 @@ class QiugouxinxiSpSpider(scrapy.Spider):
         # 20191009
         # for i in range(3893114, 4185818, 1):
         # for i in range(3793114, 3893114, 1):
-        for i in range(2693114, 3693114, 1):
+        # for i in range(2693114, 3693114, 1):
+        # for i in range(1693114, 2693114, 1):
+        for i in range(2107639, 2693114, 1):
             i = str(i+1)
             url = base_url+i+".html"
             print(url)
