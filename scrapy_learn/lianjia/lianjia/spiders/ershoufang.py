@@ -4,15 +4,14 @@ import re
 import scrapy
 from ..items import LianjiaErshoufangItem
 
-
 class ErshoufangSpider(scrapy.Spider):
     name = 'lianjia_ershoufang'
     source = 'www.lianjia.com'
     remark = '二手房爬虫'
     periodic = True
     start_urls_dict = {
-        '上海': 'https://sh.lianjia.com/ershoufang/',
-        # '北京': 'https://bj.lianjia.com/ershoufang/',
+        # '上海': 'https://sh.lianjia.com/ershoufang/',
+        '北京': 'https://bj.lianjia.com/ershoufang/',
         # '广州': 'https://gz.lianjia.com/ershoufang/',
         # '深圳': 'https://sz.lianjia.com/ershoufang/',
         # '杭州': 'https://hz.lianjia.com/ershoufang/',
