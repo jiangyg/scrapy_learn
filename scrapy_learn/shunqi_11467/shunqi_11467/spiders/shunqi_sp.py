@@ -26,7 +26,7 @@ class ShunqiSpSpider(scrapy.Spider):
 
     def start_requests(self):
         base_url = "http://www.11467.com/shanghai/co/"
-        for i in range(1000000, 1161602, 1):
+        for i in range(1138325, 1148325, 1):
             i = str(i+1)
             url = base_url+i+".htm"
             print(url)
